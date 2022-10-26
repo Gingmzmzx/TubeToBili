@@ -17,7 +17,7 @@ Bilibili Cookie可以从浏览器获取，**建议使用[biliup-rs命令行工�
 我们不提供需要的模块列表，您可以根据文件中的引用自行安装模块。  
   
 打包时，请更改`main.spec`中的`a`中的`pathex`绝对地址，然后使用`pyinstaller main.spec`打包  
-**请注意，`main.spec`中`block_cipher`使用`pyi_crypto.PyiBlockCipher`加密，需要额外安装`pycrypto`包，如果嫌麻烦直接把`block_cipher`赋值改成`None`即可！  
+**请注意，`main.spec`中`block_cipher`使用`pyi_crypto.PyiBlockCipher`加密，需要额外安装`pycrypto`包，如果嫌麻烦直接把`block_cipher`赋值改成`None`即可！**   
   
 # 开源协议
 本仓库基于`Mozilla Public License 2.0`协议。  
