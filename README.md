@@ -5,7 +5,7 @@ YouTube视频自动一键转载到Bilibili，带GUI界面
 本程序使用`python`编写，主要使用`biliup`和`pytube`编写，GUI使用`PyQt5`编写，所有ui文件均位于`/ui`目录  
   
 # 使用
-进入界面，填写YouTube视频地址和B站分区。（B站分区ID见[使用说明书](https://www.bilibili.com/read/cv18327205)  
+进入界面，填写YouTube视频地址和B站分区。（B站分区ID见[使用说明书](https://www.bilibili.com/read/cv18327205)）  
 Bilibili Cookie可以从浏览器获取，**建议使用[biliup-rs命令行工具](https://github.com/ForgQi/biliup-rs/)登陆，在生成的cookies.json中获取Cookie**  
 一次填写，程序就会自动保存Cookie配置！  
 
