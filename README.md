@@ -7,7 +7,8 @@ YouTube视频自动一键转载到Bilibili，带GUI界面
 # 使用
 进入界面，填写YouTube视频地址和B站分区。（B站分区ID见[使用说明书](https://www.bilibili.com/read/cv18327205)  
 Bilibili Cookie可以从浏览器获取，**建议使用[biliup-rs命令行工具](https://github.com/ForgQi/biliup-rs/)登陆，在生成的cookies.json中获取Cookie**  
-  
+一次填写，程序就会自动保存Cookie配置！  
+
 下载/上传时，请注意：
 - 从YouTube下载视频时，请尽量开启代理的`全局模式`
 - 上传B站时，请尽量开启`规则模式（PAC模式）`
